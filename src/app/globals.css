@@ -12,10 +12,33 @@
   height: 100%;
   background-color: blueviolet;
   padding: 20px 26px;
-  background-image: url('/pubg.jpg');
+  background-image: url('/without.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.title
+{
+  width: 600px;
+  height: fit-content;
+}
+
+.login-button
+{
+  border-radius: 3px;
+}
+
+.more
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+}
